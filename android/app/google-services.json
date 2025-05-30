@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "525663462140",
+    "project_id": "routing-flow",
+    "storage_bucket": "routing-flow.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525663462140:android:50bc4ebc78ecccd656ad79",
+        "android_client_info": {
+          "package_name": "com.routing.flow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-BSAdiy6BJtetTQD8CPZjFgW3ciPmEAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
