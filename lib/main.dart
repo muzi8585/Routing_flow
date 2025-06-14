@@ -16,16 +16,12 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   NotificationService().showNotificationFromRemote(message);
 }
 
+
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
-
-  if (await Permission.notification.isDenied) {
-    await Permission.notification.request();
-  }
-
   runApp(const ProviderScope(child: AppInitializer()));
 }
 
